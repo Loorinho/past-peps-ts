@@ -8,3 +8,9 @@
     margin: 60px auto;
     height: 450px;
 }
+
+.register_form{
+    width: 450px;
+    margin: 60px auto;
+    min-height: 450px;
+}

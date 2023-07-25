@@ -42,7 +42,7 @@ const LoginInput = ({
           errors[`${name}`] && touched[`${name}`]
             ? "focus:ring-1 focus:ring-red-500 border-red-500 focus:border-red-500"
             : "focus:ring-1 focus:ring-green-700 focus:border-teal-500"
-        } focus:outline-none shadow-sm py-2 px-4 w-full rounded`}
+        } focus:outline-none border-2 border-green-700 shadow-sm py-2 px-4 w-full rounded`}
         autoComplete="off"
         placeholder={placeholder}
         onChange={handleChange}
